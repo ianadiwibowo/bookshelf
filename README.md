@@ -18,8 +18,11 @@ Bookshelf is a web app to record the book you've read. Actually this is just me 
 % bundle exec hanami db prepare # Development
 % HANAMI_ENV=test bundle exec hanami db prepare # Test
 
-# Generate controller, action, and view using scaffolding
+# Generate controller, action, and view by scaffolding
 bundle exec hanami generate action web books#index
+
+# Generate model by scaffolding
+bundle exec hanami generate model book
 ```
 
 Explore Hanami [guides](https://guides.hanamirb.org/), [API docs](http://docs.hanamirb.org/1.3.3/), or jump in [chat](http://chat.hanamirb.org) for help. Enjoy! 🌸
