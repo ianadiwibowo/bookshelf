@@ -20,6 +20,7 @@ Bookshelf is a web app to record the book you've read. Actually this is just me 
 
 # Generate controller, action, and view by scaffolding
 bundle exec hanami generate action web books#index
+bundle exec hanami generate action web books#new
 
 # Generate model by scaffolding
 bundle exec hanami generate model book
