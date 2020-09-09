@@ -5,6 +5,7 @@
 .byebug_history
 .DS_Store
 .yarn-integrity
+*.sqlite
 /.bundle
 /config/master.key
 /log/*

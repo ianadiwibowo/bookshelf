@@ -4,7 +4,10 @@ module Web
       class Index
         include Web::Action
 
-        def call(params)
+        expose :books
+
+        def call(_params)
+          @books = BookRepository.new.all
         end
       end
     end
