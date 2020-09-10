@@ -2,7 +2,13 @@
 %html
   %head
     %title Bookshelf
+    = stylesheet 'https://fonts.googleapis.com/icon?family=Material+Icons'
+    = stylesheet 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'
     = favicon
   %body
-    %h1 Bookshelf
-    = yield
+    .container
+      %nav
+        .nav-wrapper
+          %a.brand-logo{ href: '#' } Bookshelf
+      = yield
+    = javascript 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'

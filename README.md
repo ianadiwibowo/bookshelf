@@ -1,6 +1,6 @@
 # Bookshelf
 
-Bookshelf is a web app to record the book you've read. Actually this is just me trying out Hanami.
+Bookshelf is a web app to record the book you've read. Actually this is just me trying out Ruby on Hanami.
 
 ## Setup
 
@@ -28,5 +28,3 @@ bundle exec hanami generate model book
 # See all available routes
 bundle exec hanami routes
 ```
-
-Explore Hanami [guides](https://guides.hanamirb.org/), [API docs](http://docs.hanamirb.org/1.3.3/), or jump in [chat](http://chat.hanamirb.org) for help. Enjoy! 🌸
