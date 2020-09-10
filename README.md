@@ -24,6 +24,9 @@ bundle exec hanami generate action web books#new
 
 # Generate model by scaffolding
 bundle exec hanami generate model book
+
+# See all available routes
+bundle exec hanami routes
 ```
 
 Explore Hanami [guides](https://guides.hanamirb.org/), [API docs](http://docs.hanamirb.org/1.3.3/), or jump in [chat](http://chat.hanamirb.org) for help. Enjoy! 🌸
